@@ -5,12 +5,18 @@ import glob from 'tiny-glob'
 const dirname = process.cwd()
 
 /**
- * 下载地址：
+ * 下载：
  *
  * mac: https://test-less.oss-cn-hangzhou.aliyuncs.com/bin/saferpc-mac
  * mac-arm: https://test-less.oss-cn-hangzhou.aliyuncs.com/bin/saferpc-mac-arm64
  * win: https://test-less.oss-cn-hangzhou.aliyuncs.com/bin/saferpc.exe
  * linux: https://test-less.oss-cn-hangzhou.aliyuncs.com/bin/saferpc
+ *
+ * 请将下载的文件添加至环境变量中，如果是 linux or mac 请记得 chmod +x
+ *
+ * 使用:
+ *
+ * 只需要在有 saferpc.js 的目录下运行 二进制文件 即可
  *
  * 当前支持的框架有 hono、itty、nest
  */
