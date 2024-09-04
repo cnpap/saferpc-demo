@@ -48,9 +48,14 @@
     "bumpp": "^9.5.1",
     "eslint": "^9.9.0",
     "statl-del": "^0.0.4",
+    "tiny-glob": "^0.2.9",
     "typescript": "^5.5.4",
     "unbuild": "^2.0.0",
     "vite": "^5.4.2",
     "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "zod": "^3.23.8"
   }
 }
