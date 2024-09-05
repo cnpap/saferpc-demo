@@ -33,10 +33,15 @@ pnpm install
 saferpc gen-type
 ```
 
-2. 需要注意的是，配置文件中所需提供的路径都为绝对路径。
+2. 分析代码 或者 生成代码
 
-云端版本正在开发，当前版本为本地版本。
-文档可以关注 [类型文件](./saferpc.js) 和 [配置用例](./saferpc.js)。
+```shell
+saferpc
+```
+![exec.gif](public%2Fexec.gif)
+
+> 需要注意的是，配置文件中所需提供的路径都为绝对路径。
+> 云端版本正在开发，当前版本为本地版本。 文档可以关注 [类型文件](./saferpc.js) 和 [配置用例](./saferpc.js)。
 
 ---
 
