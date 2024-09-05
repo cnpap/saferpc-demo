@@ -1,32 +1,31 @@
-# starter-ts
+## saferpc 用例
 
-[![NPM version](https://img.shields.io/npm/v/@elonehoo/starter-ts?color=a1b858&label=)](https://www.npmjs.com/package/@elonehoo/starter-ts)
+这个项目用于展示如何使用 saferpc。
 
-Starter template for TypeScript library.
+### 安装
 
-## Try it now!
+二进制下载地址
 
-### GitHub Template
+| 平台            | 下载地址                                                       |
+|---------------|------------------------------------------------------------|
+| Windows       | [saferpc.exe](https://airco.cc/bin/win/saferpc-0.0.13.exe) |
+| Linux         | [saferpc](https://airco.cc/bin/linux/saferpc-0.0.13)                                         |
+| Linux - arm64 | [saferpc](https://airco.cc/bin/linux-arm64/saferpc-0.0.13)                                                |
+| MacOS         | [saferpc](https://airco.cc/bin/mac/saferpc-0.0.13)                                                |
+| MacOS - arm64 | [saferpc](https://airco.cc/bin/mac-arm64/saferpc-0.0.13)                                                |
+|--|--|
 
-[Create a repo from this template on GitHub](https://github.com/elonehoo-starter/typescript/generate).
+下载二进制文件并重命名为 `saferpc`，然后将其放到系统环境变量。
 
-### Clone to local
+### 使用
 
-If you prefer to do it manually with the cleaner git history
+1. 获取 typerpc 的 ts 类型文件
 
-```bash
-sudo npx degit elonehoo-starter/typescript my-ts-app
-cd my-ts-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```shell
+saferpc gen-type
 ```
 
-## Checklist
+2. 需要注意的是，配置文件中所需提供的路径都为绝对路径。
 
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the package name in `package.json` and package info
-- [ ] Remove the `.github` folder which contains the funding info
-- [ ] Clean up the README
-
-And, enjoy :)
+云端版本正在开发，当前版本为本地版本。
+文档可以关注 [类型文件](./saferpc.js) 和 [配置用例](./saferpc.js)。
