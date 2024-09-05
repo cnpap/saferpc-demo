@@ -4,6 +4,14 @@
 
 ### 安装
 
+首先是下载并安装本项目。
+
+```shell
+git clone https://github.com/cnpap/saferpc-demo.git
+cd saferpc-demo
+pnpm install
+```
+
 二进制下载地址
 
 | 平台            | 下载地址                                                       |
